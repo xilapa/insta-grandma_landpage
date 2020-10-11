@@ -5,5 +5,5 @@ Página inspirada na landpage do [Instagram](https://www.instagram.com/ "Instagr
 Neste projeto foram trabalhandos os conceitos de **flexbox** e **media queries**
 
 ##### Previews
-[![Desktop](preview1 "Desktop")](http://preview1 "Desktop")
-[![Mobile](preview2 "Mobile")](http://preview2 "Mobile")
+[![Desktop](https://raw.githubusercontent.com/xilapa/insta-grandma_landpage/main/preview/preview1.png "Desktop")](https://raw.githubusercontent.com/xilapa/insta-grandma_landpage/main/preview/preview1.png "Desktop")
+[![Mobile](https://raw.githubusercontent.com/xilapa/insta-grandma_landpage/main/preview/preview2.png "Mobile")](https://raw.githubusercontent.com/xilapa/insta-grandma_landpage/main/preview/preview2.png "Mobile")
