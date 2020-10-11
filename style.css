@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* remove a margem do box-model */
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 14px;
+   
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    /* A medida vh é igual a 1/100 da altura da viewport */
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content-wrapper{
+    display: flex;
+    /* display flex alinha os elementos internos em linha */
+    align-items: center;
+    /* alinhamento no eixo perpendicular do flex, o eixo padrão é horizontal */
+    justify-content: center;
+    /* alinhamento no eixo do flex
+        space-evenly: itens são alinhados com espaçamento uniforme entre os elementos
+        space-around: o espaçamento maior fica no meio dos elementos
+        space-between: cada item é jogado para uma ponta da tela
+
+     */
+    min-width: 60%;
+    min-height: 88vh;
+    margin-top: 2vh;
+    
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    min-height: 80%;
+}
+
+.phone img {
+    max-height: 45rem;
+    max-width: 100%;
+    /* rem (o “r” significa “root”: “root em”), que é igual ao tamanho da altura fixada ao elemento-raiz (quase sempre <html>). */
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    min-width: 350px;
+    min-height: 40rem;
+}
+
+.white-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    padding: 1.8rem 0;
+    border: 1px solid lightgray;
+}
+
+.white-box:nth-child(1)
+/* pega o primeiro filho na página que usa a classe */
+{
+    min-height: 24rem;
+} 
+
+.logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.profile-photo img {
+    height: 100px;
+    width: auto;
+}
+
+.btn-login {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.txt-link {
+    color: #0095f6;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.transparent-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.app-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 50px;
+
+}
+
+.app-download img {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer {
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* tela de celular */
+@media (max-width: 875px) {
+    .content-wrapper{
+        width: 90%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+
+}
